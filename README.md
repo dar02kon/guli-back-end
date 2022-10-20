@@ -14,11 +14,11 @@
 
 * 负责顾客身份的确认及货款结算的银行及认证系统。
 
-![](D:\学习历程\Java\项目经验\谷粒学苑\img\2 商业模式.png)
+![](http://rj5qpfcaf.hn-bkt.clouddn.com/guli/2%20%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F.png)
 
-![](D:\学习历程\Java\项目经验\谷粒学苑\img\3 项目功能模块.png)
+![](http://rj5qpfcaf.hn-bkt.clouddn.com/guli/3%20%E9%A1%B9%E7%9B%AE%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97.png)
 
-![](D:\学习历程\Java\项目经验\谷粒学苑\img\4 项目技术点.png)
+![](http://rj5qpfcaf.hn-bkt.clouddn.com/guli/4%20%E9%A1%B9%E7%9B%AE%E6%8A%80%E6%9C%AF%E7%82%B9.png)
 
 ## 完成情况
 
@@ -40,7 +40,7 @@
 
 **报错信息：**
 
-![](D:\学习历程\Java\项目经验\谷粒学苑\img\Snipaste_2022-10-19_21-18-16.png)
+![](http://rj5qpfcaf.hn-bkt.clouddn.com/guli/Snipaste_2022-10-19_21-18-16.png)
 
 **原因：**
 
@@ -154,15 +154,15 @@ npm run dev # 启动
 
 使用网关`Spring Cloud Gateway`替代`Nginx`后，前端需要修改端口号
 
-![](D:\学习历程\Java\项目经验\谷粒学苑\img\Snipaste_2022-10-20_15-50-40.png)
+![](http://rj5qpfcaf.hn-bkt.clouddn.com/guli/Snipaste_2022-10-20_15-50-40.png)
 
-![](D:\学习历程\Java\项目经验\谷粒学苑\img\Snipaste_2022-10-20_15-51-12.png)
+![](http://rj5qpfcaf.hn-bkt.clouddn.com/guli/Snipaste_2022-10-20_15-51-12.png)
 
 如果在网关中配置了跨域，则`controller`层不能再添加注解`@CrossOrigin`
 
 注：后台登录接口是使用`Spring Security`来实现的，`controller`层是找不到这个接口的
 
-![](D:\学习历程\Java\项目经验\谷粒学苑\img\Snipaste_2022-10-20_15-56-29.png)
+![](http://rj5qpfcaf.hn-bkt.clouddn.com/guli/Snipaste_2022-10-20_15-56-29.png)
 
 所以我们还需要正确配置请求拦截
 
